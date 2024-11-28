@@ -7,19 +7,22 @@ Table of Contents
 - [Project Background](#project-background)
 - [Executive Summary](#executive-summary)
 
-
-
-
-
-
-
-
 ## Project Background
 Espresso Yourself is an energetic coffee shop franchise that opened its doors this year. They aim to change the coffee game with top-notch brews.
 
 To boost their performance and grow their market presence, Espresso Yourself has teamed up with us to dive into their sales data and uncover actionable insights. This collaboration is led by their COO, who is keen on using data-driven strategies to improve business operations.
 
 ## Executive Summary
+Espresso Yourself's analysis of 149k records across first half of 2023 shows an annual projection of $1.4 millions with each of three stores contributing at 33% of sales.
+
+The Coffee and Tea categories are essential to this business, accounting for an impressive 67% of total revenue. This highlights the significant impact these products have on the company's financial performance, reflecting their strong demand and crucial role in driving overall sales and growth.
+
+Expanding the top category product lines, creating bundle offers and launching a customer loyalty program can significantly enhance the performance of all three stores. Additionally, marketing campaigns on social networks and utilizing glass storefront displays will boost visibility and engagement. This strategy aims to drive customer retention and growth, thereby strengthening the market position and ensuring sustainable success for the business.
+
+
+![Espresso Yourself ERD](Visualizations_Files/olap_proposal_ERD.png)
+_Yourself Espresso ERD_
+
 
 ## Insights Deep-Dive
 
