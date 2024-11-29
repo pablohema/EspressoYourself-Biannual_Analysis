@@ -1,6 +1,6 @@
 # EspressoYourself - Biannual Analysis
 
->For more of my data projects and journey, visit my [Portofolio](https://this.me).
+>For more of my data projects and journey, visit my [Portfolio](https://this.me).
 
 Table of Contents
 
