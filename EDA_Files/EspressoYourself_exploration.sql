@@ -23,9 +23,10 @@ SELECT *
 FROM transactions
 LIMIT 10;
 
-/*  ----------------------------------------
-	--- START STAR SCHEMA IMPLEMENTATION ---
-*/  ----------------------------------------
+/*  ========================================
+	=== START STAR SCHEMA IMPLEMENTATION ===
+    ========================================
+*/
 
 -- CREATE DIMENSION TABLES
 -- Create the store dimension table
@@ -140,12 +141,12 @@ SELECT * FROM products;
 SELECT *
 FROM transaction;
 
-/*  ---------------------------------------
-	--- END STAR SCHEMA IMPLEMENTATION  ---
-	---				----                ---
-	--- START EXPLORATORY DATA ANALYSIS ---
-*/  ---------------------------------------
-
+/*  =======================================
+	=== END STAR SCHEMA IMPLEMENTATION	 ===
+	===									 ===
+	=== START EXPLORATORY DATA ANALYSIS === 
+    =======================================
+*/
 
 -- Count and understand content quantities
 SELECT

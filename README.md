@@ -13,7 +13,7 @@ Espresso Yourself is an energetic coffee shop franchise that opened its doors th
 To boost their performance and grow their market presence, Espresso Yourself has teamed up with us to dive into their sales data and uncover actionable insights. This collaboration is led by their COO, who is keen on using data-driven strategies to improve business operations.
 
 ## Executive Summary
-Espresso Yourself's analysis of 149k records across first half of 2023 shows an annual projection of $1.4 millions with each of three stores contributing at 33% of sales.
+Espresso Yourself's analysis of 149k records across first half of 2023 shows sales with value of 702,000$ with each of three stores contributing at 33% of sales.
 
 The Coffee and Tea categories are essential to this business, accounting for an impressive 67% of total revenue. This highlights the significant impact these products have on the company's financial performance, reflecting their strong demand and crucial role in driving overall sales and growth.
 
@@ -27,7 +27,14 @@ _Yourself Espresso ERD_
 ## Insights Deep-Dive
 
 ### Sales Trends and Growth Rates
+- Espresso Yourself has a projection of $1,4 millions in annual sales with 300,000 orders per year.
+- 
 
+![Weekly Growth Rates](Visualizations_Files/weekly_growth_rates_table.png)
+_Weekly Growth Rates_
+
+![Monthly Growth Rates](Visualizations_Files/monthly_growth_rates_plot_heatmap.png)
+_Monthly Growth Rates_
 ### Average Monthly Sales with Orders per Month
 
 ### Decline/Uprise Sales on Specific Month due to X
