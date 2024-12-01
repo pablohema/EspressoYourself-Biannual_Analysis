@@ -199,6 +199,31 @@ GROUP BY
 	total_revenue.total
 ORDER BY total_revenue DESC;
 
+-- Calculate revenue by product
+SELECT
+    p.product_detail,
+    COUNT(*) AS total_sales,
+    SUM(t.transaction_qty) AS total_qty_sold,
+    ROUND(SUM(p.unit_price * t.transaction_qty), 0) AS total_revenue,
+    ROUND(SUM(p.unit_price * t.transaction_qty) * 100.0 / total_revenue.total, 2) AS percentage_contribution
+FROM transaction AS t
+JOIN products AS p
+    ON t.product_id = p.product_id
+JOIN product_types AS pt
+    ON p.product_type_id = pt.product_type_id
+CROSS JOIN  
+    (SELECT 
+        SUM(p.unit_price * t.transaction_qty) AS total
+     FROM transaction AS t
+     JOIN products AS p
+        ON t.product_id = p.product_id
+    ) AS total_revenue
+GROUP BY
+    p.product_detail,
+    total_revenue.total
+ORDER BY total_revenue DESC;
+
+
 -- Calculate revenue by store location
 SELECT
     s.store_location,
