@@ -340,6 +340,22 @@ ORDER BY
     total_revenue DESC
 LIMIT 5;
 
+-- TOP 15 most expensive products
+SELECT
+    p.product_id,
+    p.product_detail,
+    pc.product_category,
+    p.unit_price
+FROM products AS p
+JOIN product_types AS pt
+    ON p.product_type_id = pt.product_type_id
+JOIN product_categories AS pc
+    ON pt.product_category_id = pc.product_category_id
+ORDER BY
+    p.unit_price DESC
+LIMIT 15;
+
+
 -- Products revenue by month
 SELECT
     DATE_TRUNC('month', transaction_date) AS month,
